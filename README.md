@@ -4,6 +4,9 @@
 
 The entire world has been affected by the outbreak of COVID-19. We need to come up with a good strategy to distribute vaccines and/or medicines in such a way that casualty is minimized. We can agree that different kinds of decisions need to be taken in different areas of the world when limited number of medicines and/or vaccines are made available to them. The administration of different regions need to plan resource allocation and distribution effectively. We propose an Agent Based modeling framework for disease spread modeling that is capable of generating people as agents with various attributes such as mobility, infected, immune, etc. and an environment having different borders or boundaries which the agents may or may not cross according to probability specified during modeling. The environment also incorporates tweaking of parameters related to transmission probability, disease spread radius, period taken for a person to get cured and probability of getting killed due to the disease. Parameters related to a certain Governmental decisions as to implementing a lockdown in certain areas when a threshold of cases are observed is also incorporated. Additionally, parameters related to the point at which vaccine or medicine becomes available and the quantity of vaccine or medicine that is available in bulk and the frequency at which such bulks arrive may also be tweaked. The framework may be tweaked to model and make decision on any future epidemic or pandemic.
 
+Have a look at my blog post regarding the same:
+http://www.buddygo.net/2021/05/regarding-covid-19-related-project-that.html
+
 ## Running the simulation:
 1. Host a simple HTTPServer using python
     For Windows:
