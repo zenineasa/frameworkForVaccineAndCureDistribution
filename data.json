@@ -1,0 +1,41 @@
+{
+    "boundaryThickness": 10,
+    "spreadRadius": 5,
+    "curePeriod": 500,
+    "killProbability": 0.001,
+    "transmissionProbability": 0.7,
+
+    "lockdownStartThreshold": 0.5,
+    "lockdownEndThreshold": 0.01,
+    "lockdownMobilityMultiplier": 0.1,  
+
+    "vaccineDistributionStartTime": 500,
+    "vaccineDistributionFrequency": 200,
+    "vaccineDistributionQuantity": 1000,
+    "vaccineDistributionMechanism": "maximumInfection",
+
+    "medicineDistributionStartTime": 500,
+    "medicineDistributionFrequency": 500,
+    "medicineDistributionQuantity": 500,
+    "medicineDistributionMechanism": "maximumInfection",
+
+    "boundaries": [
+        [750,67,250,67, 1],
+        [250,67,0,500, 1],
+        [0,500,250,933, 1],
+        [250,933,750,933, 1],
+        [750,933,1000,500, 1],
+        [1000,500,750,67, 1]
+    ],
+
+    "regions": [
+        {
+            "id": "N",
+            "population": 60,
+            "infected": 10,
+            "center": [500, 500],
+            "radius": 300,
+            "mobilityFactor": 5
+        }
+    ]
+}

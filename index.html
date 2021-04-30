@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta http-equiv="cache-control" content="no-cache" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <canvas id="map" width="10000" height="10000"></canvas>
+
+        <div id="simulationControls">
+            <div id="statsViewer">&nbsp;</div>
+            <hr/>
+            <div id="mousePointerData">&nbsp;</div>
+            <hr/>
+            <button onclick="pause()">Pause</button> | 
+            <button onclick="play()">Play</button> |
+            <button onclick="takeScreenshot()">Screenshot</button>
+            <button onclick="downloadSimulationResults()">Download</button>
+        </div>
+
+        <!-- script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script -->
+        <script src="vaccine.js"></script>
+        <script src="medicine.js"></script>
+        <script src="downloadSimulationResults.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

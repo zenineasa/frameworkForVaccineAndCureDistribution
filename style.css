@@ -1,0 +1,30 @@
+#map {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border:1px solid #d3d3d3;
+}
+
+.boundary {
+    position: absolute;
+    background-color: #cccccc;
+    height: 2px;
+}
+
+#simulationControls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    zoom: 400%;
+    background: rgba(239,239,239,0.75);
+    padding: 0.5em;
+    border-radius: 0.5em 0 0 0;
+    z-index: 999;
+}
+
+#graphStatsViewer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
