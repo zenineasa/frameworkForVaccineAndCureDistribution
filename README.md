@@ -30,7 +30,19 @@ While generating the boundaries, you may observe slight color variation for boun
 
 For more information, have a look at the functions 'getBoundaryColor' and 'getBoundaryValueAt' functions.
 
-## Creators
+## Citation
 
-This was developed as a part of a research project that I worked on, along with Dr. Jimson Mathew and Mr. Neeraj from Indian Institute of Technology Patna a few months ago. Recently, the research paper that we submitted was rejected citing a few issues. We shall be getting back together to work on the same soon.
+A lot of time and effort has been put into working on this project, writing the report and ensuring that the code is readable enough. Therefore, it would be lovely if you would cite us using the following.
+
+```
+@misc{panthakkalakath2023framework,
+      title={A Framework for Modeling, Analyzing, and Decision-Making in Disease Spread Dynamics and Medicine/Vaccine Distribution}, 
+      author={Zenin Easa Panthakkalakath and Neeraj and Jimson Mathew},
+      year={2023},
+      eprint={2311.09984},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA}
+}
+```
+You can read the corresponding paper at [https://arxiv.org/abs/2311.09984](https://arxiv.org/abs/2311.09984).
 
